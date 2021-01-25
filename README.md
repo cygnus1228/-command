@@ -25,6 +25,16 @@
 ```touch 123.txt``` 创建一个名为123的txt文件
 ## grep：搜索文件
 ```例:grep bible /etc/exports (表示在文件exports中查找包含bible的所有类)```
+
+```
+常用参数
+-c 计算找到 ‘搜寻字符串’(即 pattern) 的次数
+-i忽略大小写的不同，所以大小写视为相同
+-n 输出行号
+-v 反向选择，打印不匹配的行
+-r 递归搜索
+--color=auto 将找到的关键词部分加上颜色显示
+```
 ## vim：编辑文件
 ```进入后 i 进入编辑插入模式```
 
@@ -51,3 +61,12 @@
 ```777就是rwxrwxrwx，意思是该登录用户（可以用命令id查看）、他所在的组和其他人都有这个文件的最高权限```
 
 ```chmod 777 123.md这个命令表示给123这个md文件最高权限```
+# ssh
+## 检查ssh密钥
+```ls -al ~/.ssh```
+## 生成ssh密钥
+```ssh-keygen -t ed25519 -C "your_email@example.com"```
+## 在后台启动ssh代理
+```start the ssh-agent in the background```
+## 将 SSH 私钥添加到 ssh-agent
+```ssh-add ~/.ssh/id_ed25519```
