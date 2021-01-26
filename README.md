@@ -68,5 +68,7 @@
 ```ssh-keygen -t ed25519 -C "your_email@example.com"```
 ## 在后台启动ssh代理
 ```start the ssh-agent in the background```
-## 将 SSH 私钥添加到 ssh-agent
+## 将 SSH 密钥添加到 ssh-agent
 ```ssh-add ~/.ssh/id_ed25519```
+## 将 SSH 密钥添加到github
+```将.ssh/id_ed25519.pub内容复制到github-settings-ssh and gpg keys-nes ssh key```
