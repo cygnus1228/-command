@@ -61,7 +61,7 @@
 ```777就是rwxrwxrwx，意思是该登录用户（可以用命令id查看）、他所在的组和其他人都有这个文件的最高权限```
 
 ```chmod 777 123.md这个命令表示给123这个md文件最高权限```
-# ssh
+# [ssh](https://docs.github.com/cn/github/authenticating-to-github)
 ## 检查ssh密钥
 ```ls -al ~/.ssh```
 ## 生成ssh密钥
