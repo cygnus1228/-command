@@ -71,4 +71,4 @@
 ## 将 SSH 密钥添加到 ssh-agent
 ```ssh-add ~/.ssh/id_ed25519```
 ## 将 SSH 密钥添加到github
-```将.ssh/id_ed25519.pub内容复制到github-settings-ssh and gpg keys-nes ssh key```
+```将.ssh/id_ed25519.pub内容复制到github-settings-ssh and gpg keys-news ssh key```
