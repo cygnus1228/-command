@@ -66,8 +66,6 @@
 ```ls -al ~/.ssh```
 ## 生成ssh密钥
 ```ssh-keygen -t ed25519 -C "your_email@example.com"```
-## 在后台启动ssh代理
-```start the ssh-agent in the background```
 ## 将 SSH 密钥添加到 ssh-agent
 ```ssh-add ~/.ssh/id_ed25519```
 ## 将 SSH 密钥添加到github
