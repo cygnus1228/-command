@@ -1,3 +1,4 @@
+[bash](https://blog.csdn.net/dfsgwe1231/article/details/107266046)
 # zsh
 ## ls：列出文件
 ```ls -a``` 给出当前目录下所有文件，包括“隐藏”文件(a=all)
@@ -35,6 +36,17 @@
 -r 递归搜索
 --color=auto 将找到的关键词部分加上颜色显示
 ```
+## cat:连接并打印文件
+```cat xxx aaa```显示文件内容
+
+```
+cat> aaa
+创建aaa文件
+输入文本后Ctrl+D保存并退出
+```
+
+```cat -n xxx```显示文件行数
+###### [其他](https://www.tecmint.com/13-basic-cat-command-examples-in-linux/?ref=hackernoon.com)
 ## vim：编辑文件
 ```进入后 i 进入编辑插入模式```
 
