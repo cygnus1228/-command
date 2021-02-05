@@ -78,6 +78,8 @@ cat> aaa
 ```ls -al ~/.ssh```
 ## 生成ssh密钥
 ```ssh-keygen -t ed25519 -C "your_email@example.com"```
+## 启动ssh
+```eval `ssh-agent -s```
 ## 将 SSH 密钥添加到 ssh-agent
 ```ssh-add ~/.ssh/id_ed25519```
 ## 将 SSH 密钥添加到github
